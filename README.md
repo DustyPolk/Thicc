@@ -1,13 +1,7 @@
-# Welcome to RuFi 
-RustFinder is a fast web application reconnaissance tool written in Rust for ethical hackers. The purpose was to have a project to start learning rust that could also perhaps help other people. I'm not saying you should use this over any of the other clearly better solutions out there, however some people may find a use for it :) I welcome any and all comments. I plan to work on this frequently.
+# Welcome to Thicc 
+Thicc is a fast web application reconnaissance tool written in Rust for ethical hackers. The purpose was to have a project to start learning rust that could also perhaps help other people. I'm not saying you should use this over any of the other clearly better solutions out there, however some people may find a use for it :) I welcome any and all comments. I plan to work on this frequently.
 
-![RuFi/RustFinder](rufi.gif)
-
-Twitter @_Ozz
-
-Github @4czr
-
-Email ozz@riseup.net
+![RuFi/RustFinder](rufi.gif
 
 # Use
 ```
@@ -53,11 +47,4 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 
 21/04/2022: 0.2 released, port scanner added
 
-# Donations
-Of course, this software is entirely free and I do NOT expect any donations of any kind, however if you like this project and do wish to donate, that would be awesome :)
 
-BTC: bc1qjgts2j4xlq28hatrmta0apl0zveq2meydr9s3h
-
-ETH: 0x5d11B47AED91993d0548AA133735Ab3c3b20F529
-
-XMR: 49GroSUCxvnBG4vNgzWQQf4rCaZ27hXae9pL22ACY7FJa72qSTCTPyPNbT7pvhwqQ1BwTuPuQHvb5DU6PYLFwXjq4ooEny4
