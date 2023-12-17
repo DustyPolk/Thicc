@@ -6,7 +6,7 @@ mod dns;
 mod pscan;
 
 fn main() {
-    let matches = Command::new("*----------------------------------------*\n|         Welcome to RustFinder!         |\n|   A fast and handy little recon tool   |\n|----------------------------------------|\n|              Version: 0.2              |\n|----------------------------------------|\n|    Developed by Ozz | ozz@riseup.net   |\n|      Twitter: @_Ozz | GitHub: @4czr    |\n*----------------------------------------*\n\n")
+        let matches = Command::new("rustfinder")
         .arg(Arg::new("GeoIP")
                 .short('g')
                 .long("geo")
@@ -38,9 +38,6 @@ fn main() {
                 .takes_value(true)
                 .help("Scans for open ports"))
         .get_matches();
-
-    println!("*----------------------------------------*\n|         Welcome to RustFinder!         |\n|   A fast and handy little recon tool   |\n|----------------------------------------|\n|              Version: 0.2              |\n|----------------------------------------|\n|    Developed by Ozz | ozz@riseup.net   |\n|      Twitter: @_Ozz | GitHub: @4czr    |\n*----------------------------------------*");
-    
 
     match matches.value_of("GeoIP") { 
         Some(s) => { geo::geo(s).expect("Unexpected Error:"); }, 
